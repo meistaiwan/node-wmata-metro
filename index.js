@@ -5,7 +5,7 @@ function Metro(key) {
 
   this.key = 'api_key=' + key;
   this.url = function(type) {
-    return 'http://api.wmata.com/' + type + this.key;
+    return 'http://api.wmata.com' + type + this.key;
   }
 
   // Base
